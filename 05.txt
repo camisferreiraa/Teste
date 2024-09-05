@@ -1,0 +1,14 @@
+Ligue o Interruptor 1 (I1) e deixe-o ligado por alguns minutos. Isso permitirá que a lâmpada esquente .
+Após alguns minutos, desligue o Interruptor 1 (I1).
+Ligue o Interruptor 2 (I2) e deixe-o ligado.
+Mantenha o Interruptor 3 (I3) desligado.
+
+A lâmpada que está acesa será controlada pelo Interruptor 2 (I2), pois ele foi o último a ser ligado e ainda está ligado.
+A lâmpada que está apagada, mas quente será controlada pelo Interruptor 1 (I1), já que ela esteve ligada por um tempo, mas foi desligada antes de você ir à sala.
+A lâmpada que está apagada e fria será controlada pelo Interruptor 3 (I3), pois ele nunca foi ligado.
+
+Com essa estratégia, usando apenas duas idas à sala das lâmpadas, você consegue determinar com precisão qual interruptor controla cada lâmpada:
+
+Lâmpada acesa: Interruptor 2 (I2).
+Lâmpada apagada, mas quente: Interruptor 1 (I1).
+Lâmpada apagada e fria: Interruptor 3 (I3).
